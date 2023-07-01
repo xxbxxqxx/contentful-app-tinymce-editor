@@ -2,8 +2,8 @@ This project was bootstrapped with [Create Contentful App](https://github.com/co
 
 ## Introduction
 
-You can use TInyMCE editor as Contentful App. 
-The app is Vite + Typesript.
+This is TinyMCE editor for Contentful App. 
+You can write a content with customizable editor interface.
 
 ## How to use
 
@@ -18,14 +18,14 @@ The app is Vite + Typesript.
 
 ### In your local
 1. Clone the repository
-2. cd ~/app_repository
-3. npm install
-4. npm run build
-5. npm run upload
+2. `cd ~/app_repository`
+3. `npm install`
+4. `npm run build`
+5. `npm run upload`
     - Or you can upload `dist` to a hosting service like Cloudflare Pages.
 
 ### In your Contentful Space
-1. Go to content model definition
+1. Go to Content model definition
 2. Select JSON object field type
 3. Select your TinyMCE app in Appearance tab
 4. Input paramters(`plugins`, `toolbar` and `menubar`)
